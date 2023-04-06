@@ -15,8 +15,8 @@ body {
 /* Common */
 a {
     text-decoration: none;
+    list-style: none;
 }
-
 .dots {
     display: flex;
     gap: 6px;
@@ -36,6 +36,9 @@ a {
 .break-all {
     word-break: break-all;
 }
+.nav-input{
+    display: none;
+}
 
 .line-clamp {
     display: -webkit-box;
@@ -43,7 +46,6 @@ a {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-
 .line-clamp.line-2 {
     --line-clamp: 2;
 }
@@ -112,7 +114,9 @@ a {
     text-align: center;
     color: #5F5B53;
 }
-
+.nav .ul-nav .me{
+    display: none;
+}
 .nav li a:hover {
 
     text-shadow: 1px 0 0 currentColor;
@@ -150,7 +154,7 @@ a {
     padding-bottom: 65px;
 }
 
-.Hero .media-hero .img {
+.Hero .media-hero .img-hero {
     width: 470px;
     height: 685px;
     object-fit: cover;
@@ -335,10 +339,7 @@ a {
 }
 
 /* Popular */
-.popular {
-    padding: 65px 0;
-    margin-top: 135px;
-}
+
 
 .popular-top .heading {
     font-family: var(--font);
@@ -348,7 +349,12 @@ a {
     letter-spacing: -0.02em;
     color: #171100;
 }
-
+.nav-bars-btn{
+    display: none;
+    width: 28px;
+    height: 28px;
+    color: #fff;
+}
 .popular-top .desc {
     width: 458px;
     font-weight: 400;
@@ -470,8 +476,6 @@ a {
 
 /* Phần Feedback */
 .feedback {
-    margin-top: 135px;
-    padding: 96px 0;
     background: #2E2100
 }
 
@@ -537,11 +541,6 @@ a {
 }
 
 /* Phần Features */
-.features {
-    padding: 65px 0;
-    margin-top: 135px;
-}
-
 .features-top {
     display: flex;
 }
@@ -561,11 +560,6 @@ a {
     border-radius: 16px;
     object-fit: cover;
 }
-
-.features-top .info {
-    margin-left: 130px;
-}
-
 .features .info .heading {
     font-family: var(--font);
     font-style: normal;
@@ -605,7 +599,6 @@ a {
 }
 
 .features-bot {
-    padding-top: 200px;
     display: flex;
 }
 
@@ -672,7 +665,7 @@ a {
 .blog-item-1 {
     width: 370px;
     height: 250px;
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 16px;
 }
 
 .blog .time {
@@ -733,7 +726,6 @@ a {
 }
 
 .fotter {
-    padding: 96px 135px 0;
     background: #2E2100;
 }
 
@@ -814,4 +806,85 @@ a {
     line-height: 1.86;
     color: #BFBCB2;
     text-align: center;
+}
+.login{
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    font-size: 1.5rem;
+}
+.open {
+    display: flex;
+}
+.login .content-login {
+    width: 900px;
+    height: 400px;
+    background-color: #fff;
+    position: relative;
+    margin: 10px;
+    }
+.login .cuahang{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 80px;
+background-color: red;
+color: #fff;
+font-size: 2.5rem;
+    }
+lable , .password {
+        display: block;
+    }
+lable,input {
+    margin-top: 15px;  
+}
+.body-login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pay, .create{
+    border: none;
+    border-radius:  2px;
+}
+.pay, .create,
+.login .name{
+    width: 500px;
+    padding: 10px 0;
+}
+.login .use-name {
+    margin-left: -372px;
+}
+.login .matkhau {
+    margin-left: -409px;
+}
+.create{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: center;
+    border: 2px solid #ccc;
+}
+.create:hover{
+    border: 2px red solid;
+}
+.fter{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+.pay{
+    background-color: red;
+    color: #fff;
+}
+.pay:hover{
+    opacity: 0.7;
 }

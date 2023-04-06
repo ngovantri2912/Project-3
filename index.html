@@ -8,24 +8,30 @@
     <title>F8-Project-02</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <main>
         <header class="header fixed">
             <div class="content">
+                <div  class="nav-bars-btn">
+                    <i class="fa-solid fa-bars menu"></i></div>
                 <div class="body">
                     <!-- Logo -->
                     <img src="./assets/img/Lesson.svg" alt="Lesson." class="logo">
                     <!-- Nav -->
                     <nav class="nav">
-                        <ul>
-                            <li class="active"><a href="#">Home</a></li>
+                        <ul class="ul-nav">
+                            <i class="fa-solid fa-xmark me"></i>
+                            <li class="active"><a href="#">Home
+                            </a></li>
                             <li><a href="#">Courses</a></li>
                             <li><a href="#">Pricing</a></li>
                             <li><a href="#">Reviews</a></li>
@@ -88,7 +94,7 @@
                         <p class="desc a">Recent engagement</p>
                         <p class="desc stats">
                             <strong>50K</strong> Students
-                            <strong>70+</strong>+ Courses
+                            <strong>70+</strong> Courses
                         </p>
                     </div>
                 </div>
@@ -265,7 +271,7 @@
                             recommendations from the full Coursera catalog.</p>
                         <button class="btn btn-features-bot btn-features">Join Now </button>
                     </div>
-                    <div class="img-features-3"><img src="./assets/img/img-features-3.svg" alt=""></div>
+                    <div class="img-features-3"><img src="./assets/img/img-features-3.svg" class="img-3" alt=""></div>
                 </div>
             </div>
         </div>
@@ -454,8 +460,27 @@
                 </div>
             </div>
         </footer>
+        <div class="login">
+            <div class="content-login">
+                <header class="cuahang">Đăng Nhập</header>
+                <div class="body-login">
+                    <lable for="many" class="use-name">Tên Đăng Nhập</lable>
+                    <input type="text" name="" id="" class="name" placeholder="Tên đăng nhập">
+                    <lable for="many" class="matkhau">Mật Khẩu</lable>
+                    <input type="password" name="" id="" class="name" placeholder="Mật khẩu">
+                    <input type="button" value="Đăng nhập" class="pay"></input>
+                    <a href="#" class="create">Tạo tài khoản</a>
+                    <fotter class="fter">
+                        Need
+                        <a href="#">Help</a>
+                    </fotter>
+                </div>
+
+            </div>
+        </div>
     </main>
 
 </body>
+<Script src="./scipt.js"></Script>
 
 </html>

@@ -1,0 +1,363 @@
+@media only screen and (max-width:46.1875em) {
+    .content {
+        width: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .nav-bars-btn {
+        top: 10px;
+        left: 30px;
+        position: absolute;
+        display: block;
+        color: #000;
+        padding: 10px;
+    }
+    .header ul:first-child {
+        padding-top: 0 !important;
+    }
+    .header li {
+        margin-top: 40px;
+    }
+    .header .ul-nav {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 230px;
+        position: fixed;
+        flex-direction: column;
+        gap: 30px;
+        background-color: #fff;
+        display: none;
+    }
+    .menu:hover{
+        background-color: red;
+    }
+     .menu{
+        font-size: 3rem;
+    }
+    .Hero .content .body{
+        margin-left: 7.5%;
+    }
+    .abc {
+        display: block !important;
+    }
+
+    .nav .ul-nav .me {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        padding: 5px;
+    }
+    .nav .ul-nav .me:hover{
+        background-color: red;
+    }
+    .over-lay {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: none;
+    }
+
+    .nav-input:checked~.over-lay {
+        display: block;
+    }
+
+    .nav-input:checked~.ul-nav {
+        transform: translateY(0);
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .header .body {
+        padding-top: 60px;
+    }
+
+    .header ul:first-child {
+        padding-top: 50px;
+    }
+
+    /* phần hero */
+    .Hero .body {
+        flex-direction: column;
+    }
+
+    .See-Courses {
+        width: 150px;
+        min-width: 100px;
+    }
+
+    .content-hero .desc strong {
+        font-size: 3rem;
+    }
+
+    .blog-item-1 {
+        width: 80% !important;
+    }
+
+    .media-hero,
+    .hero-summary,
+    .lable,
+    .tittle,
+    .hero-desc,
+    .sub-title {
+        width: 370px !important;
+    }
+
+    .Hero .media-hero .img-hero {
+        width: 345px;
+        height: 345px;
+        object-fit: cover;
+        margin-left: 5px;
+    }
+
+    .content-hero {
+        width: 360px !important;
+        padding-left: 0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5px;
+    }
+
+    .sub-title {
+        font-size: 3rem !important;
+    }
+
+    .content-hero .hero-desc {
+        font-size: 1.5rem;
+    }
+
+    .hero-summary {
+        display: none;
+    }
+
+    .cta-group .watch-video {
+        margin-left: 6px !important;
+    }
+
+    /* Phần popular */
+    .popular-top .info {
+        width: 100%;
+    }
+
+    .popular-top .heading {
+        text-align: center;
+    }
+
+    .popular-top .desc {
+        display: none;
+    }
+
+    .popular-top {
+        flex-direction: column;
+    }
+
+    .controls {
+        margin-top: 30px;
+    }
+
+    .course-list {
+        flex-direction: column;
+    }
+
+    .course-list .course-item {
+        width: 100%;
+    }
+
+    /* Phần Feedback */
+    .feedback-item {
+        flex-direction: column;
+    }
+
+    .feedback-item .info {
+        display: flex;
+        gap: 10px;
+    }
+
+    .feedback-item .heading {
+        margin-top: 0 !important;
+    }
+
+    .content-feedback {
+        margin-top: 30px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .content-feedback blockquote {
+        margin-left: 6% !important;
+        font-size: 2rem;
+    }
+
+    /* Phần Features */
+    .features-top {
+        flex-direction: column-reverse;
+    }
+
+    .btn-features-top {
+        display: block;
+        margin-left: auto;
+    }
+
+    .img-features-2 {
+        display: none;
+    }
+
+    .img-features-1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .features {
+        padding: 30px 0;
+        margin-top: 43px;
+        margin-left: 12%;
+    }
+
+    .features .info .heading {
+        text-align: center;
+        font-size: 3.2rem;
+    }
+
+    .features-bot {
+        flex-direction: column;
+    }
+
+    .features .info .heading {
+        font-size: 2.2rem;
+        margin-top: 30px !important;
+    }
+
+    .btn-features-bot {
+        display: block;
+        margin-left: auto;
+    }
+
+    .features .info .desc {
+        text-align: justify;
+
+    }
+
+    .img-3 {
+        margin-top: 40px;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 25px;
+    }
+
+    .feedback {
+        margin-top: 43px;
+        padding: 30px 0;
+    }
+
+    .popular {
+        padding: 20px 0;
+        margin-top: 43px;
+        margin-left: 8%;
+    }
+
+    .features-bot {
+        padding-top: 50px;
+    }
+
+    .blog {
+        padding-top: 43px;
+    }
+
+    .header.fixed {
+        top: 0;
+    }
+
+    /* Phần Blog */
+    .blog .blog-list {
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    .blog .blog-item {
+        width: 330px;
+    }
+
+    .blog .info {
+        width: 80%;
+    }
+
+    /* Phần Footer */
+    .row {
+        flex-direction: column;
+    }
+
+    .fotter {
+        width: 100%;
+    }
+
+    .column {
+        width: 100% !important;
+    }
+
+    .row .column .desc {
+        width: 100%;
+        text-align: justify;
+        margin-left: 20px;
+    }
+
+    .row .column .socials {
+        display: flex;
+        justify-content: center;
+        margin-left: 11%;
+    }
+
+    .row .column .tittle {
+        margin-top: 30px;
+        padding-right: 0 !important;
+        text-align: center;
+    }
+
+    .row .column li {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* PC */
+@media only all and (min-width:46.25em) {
+    .features-top .info {
+        margin-left: 130px;
+    }
+
+    .features {
+        padding: 65px 0;
+        margin-top: 135px;
+    }
+
+    .feedback {
+        margin-top: 135px;
+        padding: 96px 0;
+        margin-left: 20px;
+    }
+
+    .popular {
+        padding: 65px 0;
+        margin-top: 135px;
+    }
+
+    .features-bot {
+        padding-top: 200px;
+    }
+
+    .fotter {
+        padding: 96px 135px 0;
+        background: #2E2100;
+    }
+
+}
